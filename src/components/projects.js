@@ -4,6 +4,10 @@ import '../css/projects.css';
 
 class Projects extends Component {
 
+    constructor(props) {
+        super(props);
+    }
+
     render () {
         return (
             <div>

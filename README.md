@@ -4,7 +4,7 @@ A personal/professional website that features programming projects and general i
 
 ### Access via GitHub Pages
 
-Link: https://ehansen247.github.io/edhansen/
+Link: https://ehansen247.github.io/
 
 ### Running on Local Host
 

@@ -1,29 +1,25 @@
 import React from 'react'; 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Homepage from './components/homepage';
 import Projects from './components/projects';
-import Navigation from './components/navigation';
+import NavigationWithRouter from './components/navigation';
 import Photo from './assets/Photo.png';
 import { Icon } from 'antd';
 import "./css/app.css";
 
 class App extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {tab: "home"}
-    }
-
     render () {
         return (
-            <Router>
-                <div className="app">
+            
+            <div className="app">
+                <BrowserRouter basename={process.env.PUBLIC_URL}>
                     { this.renderMenu() }
                     <br />
                     { this.renderNavigation() }
                     { this.renderRoutes() }
-                </div>
-            </Router>
+                </BrowserRouter>
+            </div>
         )
     }
 
@@ -31,7 +27,7 @@ class App extends React.Component {
         return (
             <div className="menu">
                 <div className="left">
-                    <img id="photo" src={Photo}></img>
+                    <img alt="Profile" id="photo" src={Photo}></img>
                 </div>
                 <div className="right">
                     <p id="name">Eric Hansen</p>
@@ -48,19 +44,22 @@ class App extends React.Component {
     renderNavigation () {
         return (
             <div className="navigation">
-                <Navigation  />
+                <NavigationWithRouter  />
             </div> 
         );
     }
 
     renderRoutes() {
+        
         return (
             <div className="body">
-                <Route exact path="/" component={ Homepage } />
-                <Route exact path="/projects" component={ Projects } />
+                    
+                <Switch>
+                    <Route exact path="/" component={ Homepage } />
+                    <Route exact path="/projects" component={ Projects } />
+                </Switch>
             </div> 
         );
-        
     }
 }
 

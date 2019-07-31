@@ -1,11 +1,33 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { withRouter } from "react-router";
 import "../css/nav.css";
 import {Button, Dropdown, Icon, Menu } from 'antd';
 
 const ButtonGroup = Button.Group;
 
 class Navigation extends Component {
+
+    constructor(props) {
+        super(props);
+        const path = this.props.location.pathname;
+        this.state = {
+            path: path,
+            home: (path === '/') ? 'primary' : 'default',
+            projects: (path === '/projects') ? 'primary' : 'default'
+        }
+    }
+
+    componentDidUpdate() {
+        const path = this.props.location.pathname;
+        if (path !== this.state.path) {
+            this.setState({
+                path: path,
+                home: (path === '/') ? 'primary' : 'default',
+                projects: (path === '/projects') ? 'primary' : 'default'
+            })
+        }
+    }
 
     renderBar () {
         const links = (
@@ -24,8 +46,8 @@ class Navigation extends Component {
         return (
             <div className="nav">
                 <ButtonGroup>
-                    <Button type="primary"><Link to="/">Home</Link></Button>
-                    <Button><Link to="/projects">Projects</Link></Button>
+                    <Button type={this.state.home}><Link to="/">Home</Link></Button>
+                    <Button type={this.state.projects}><Link to="/projects">Projects</Link></Button>
                     <Dropdown overlay={links}>
                         <Button>Links<Icon type="down" /></Button>
                     </Dropdown>
@@ -34,7 +56,6 @@ class Navigation extends Component {
         )
     }
 
-
     render () {
         return (
             this.renderBar()
@@ -42,5 +63,6 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+const NavigationWithRouter = withRouter(Navigation);
+export default NavigationWithRouter;
 
