@@ -1,17 +1,14 @@
-/* @import "~antd/dist/antd.css"; */
-/* @import 'bootstrap/dist/css/bootstrap.css'; */
-
-
 body {
-    /* background-color: green; */
     height: 100%;
     margin: 0px;
     padding: 0px;
+
+    height: 100%;
+    text-align: center;
+    font-family: Geneva;
 }
 
 #root {
-    /* background-color: purple; */
-    height: 300px;
     margin: 0px;
     padding: 0px;
 }

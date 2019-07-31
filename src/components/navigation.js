@@ -46,10 +46,10 @@ class Navigation extends Component {
         return (
             <div className="nav">
                 <ButtonGroup>
-                    <Button type={this.state.home}><Link to="/">Home</Link></Button>
-                    <Button type={this.state.projects}><Link to="/projects">Projects</Link></Button>
+                    <Button className="button" type={this.state.home}><Link to="/">Home</Link></Button>
+                    <Button className="button" type={this.state.projects}><Link to="/projects">Projects</Link></Button>
                     <Dropdown overlay={links}>
-                        <Button>Links<Icon type="down" /></Button>
+                        <Button className="button">Links<Icon type="down" /></Button>
                     </Dropdown>
                 </ButtonGroup>
             </div>
