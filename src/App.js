@@ -56,7 +56,7 @@ class App extends React.Component {
     renderRoutes() {
         return (
             <div className="body">
-                <Route path="/" component={ Homepage } />
+                <Route exact path="/" component={ Homepage } />
                 <Route exact path="/projects" component={ Projects } />
             </div> 
         );
