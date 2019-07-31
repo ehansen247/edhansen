@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.f7985c4a.chunk.css",
-    "main.js": "/repository-name/static/js/main.8508f8a3.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.8508f8a3.chunk.js.map",
-    "runtime~main.js": "/repository-name/static/js/runtime~main.f7634681.js",
-    "runtime~main.js.map": "/repository-name/static/js/runtime~main.f7634681.js.map",
-    "static/css/2.a317ec87.chunk.css": "/repository-name/static/css/2.a317ec87.chunk.css",
-    "static/js/2.004505d9.chunk.js": "/repository-name/static/js/2.004505d9.chunk.js",
-    "static/js/2.004505d9.chunk.js.map": "/repository-name/static/js/2.004505d9.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.1dc135283aca3a24d0d06535322052aa.js": "/repository-name/precache-manifest.1dc135283aca3a24d0d06535322052aa.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/2.a317ec87.chunk.css.map": "/repository-name/static/css/2.a317ec87.chunk.css.map",
-    "static/css/main.f7985c4a.chunk.css.map": "/repository-name/static/css/main.f7985c4a.chunk.css.map",
-    "static/media/Photo.png": "/repository-name/static/media/Photo.a7912385.png"
+    "main.css": "/edhansen/static/css/main.f7985c4a.chunk.css",
+    "main.js": "/edhansen/static/js/main.ef8a2da3.chunk.js",
+    "main.js.map": "/edhansen/static/js/main.ef8a2da3.chunk.js.map",
+    "runtime~main.js": "/edhansen/static/js/runtime~main.91a13f04.js",
+    "runtime~main.js.map": "/edhansen/static/js/runtime~main.91a13f04.js.map",
+    "static/css/2.a317ec87.chunk.css": "/edhansen/static/css/2.a317ec87.chunk.css",
+    "static/js/2.336c510e.chunk.js": "/edhansen/static/js/2.336c510e.chunk.js",
+    "static/js/2.336c510e.chunk.js.map": "/edhansen/static/js/2.336c510e.chunk.js.map",
+    "index.html": "/edhansen/index.html",
+    "precache-manifest.b8dbad8f5583961adc5a5795a5074f4a.js": "/edhansen/precache-manifest.b8dbad8f5583961adc5a5795a5074f4a.js",
+    "service-worker.js": "/edhansen/service-worker.js",
+    "static/css/2.a317ec87.chunk.css.map": "/edhansen/static/css/2.a317ec87.chunk.css.map",
+    "static/css/main.f7985c4a.chunk.css.map": "/edhansen/static/css/main.f7985c4a.chunk.css.map",
+    "static/media/Photo.png": "/edhansen/static/media/Photo.a7912385.png"
   }
 }
