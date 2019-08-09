@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from "react-router";
 import "../css/nav.css";
-import {Button, Dropdown, Icon, Menu } from 'antd';
+import { Button, Dropdown, Icon, Menu } from 'antd';
 
 const ButtonGroup = Button.Group;
 

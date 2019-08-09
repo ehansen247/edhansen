@@ -1,7 +1,7 @@
 /* Laptop and Desktop */
-@media only screen 
-and (min-device-width : 1025px) 
-{ 
+@media only screen
+and (min-device-width : 1025px)
+{
     .menu {
         padding-top: 50px;
         display: inline-block;
@@ -9,14 +9,14 @@ and (min-device-width : 1025px)
         height: 210px;
         margin: 0px;
     }
-    
+
     .left {
         float: left;
         width: 28%;
         border-right: 3px solid silver;
         height: 100%;
     }
-    
+
     .right {
         text-align: left;
         padding-left: 30px;
@@ -24,35 +24,35 @@ and (min-device-width : 1025px)
         width: 70%;
         height: 100%;
     }
-    
+
     #name {
         font-size: 30px;
         padding-top: 15px;
         margin: 0px;
     }
-    
+
     #photo {
         position: relative;
         top: 5px;
         width: 145px;
         height: 145px;
     }
-    
+
     .links p {
         margin: 0px;
     }
-    
+
     .links {
         padding-top: 5px;
     }
-    
+
     .navigation {
         display: inline-block;
         border-top: 3px solid silver;
         width: 650px;
         padding-top: 20px;
     }
-    
+
     .body {
         display: inline-block;
         text-align: left;
@@ -65,9 +65,9 @@ and (min-device-width : 1025px)
 
 
 /* iPhone 6, 7, 8 */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 750px) 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 750px)
 {
     .menu {
         padding-top: 10px;
@@ -76,14 +76,14 @@ and (max-device-width : 750px)
         height: 100px;
         margin: 0px;
     }
-    
+
     .left {
         float: left;
         width: 28%;
         border-right: 3px solid silver;
         height: 100%;
     }
-    
+
     .right {
         text-align: left;
         padding-left: 30px;
@@ -91,36 +91,36 @@ and (max-device-width : 750px)
         width: 70%;
         height: 100%;
     }
-    
+
     #name {
         font-size: 15px;
         padding-top: 5px;
         margin: 0px;
     }
-    
+
     #photo {
         position: relative;
         top: 3px;
         width: 80px;
         height: 80px;
     }
-    
+
     .links p {
         font-size: 11px;
         margin: 0px;
     }
-    
+
     .links {
         padding-top: 3px;
     }
-    
+
     .navigation {
         display: inline-block;
         border-top: 2px solid silver;
         width: 350px;
         padding-top: 10px;
     }
-    
+
     .body {
         display: inline-block;
         text-align: left;
@@ -131,9 +131,9 @@ and (max-device-width : 750px)
     }
 }
 /* iPad */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 {
     .menu {
         padding-top: 25px;
@@ -142,14 +142,14 @@ and (max-device-width : 1024px)
         height: 220px;
         margin: 0px;
     }
-    
+
     .left {
         float: left;
         width: 28%;
         border-right: 3px solid silver;
         height: 100%;
     }
-    
+
     .right {
         text-align: left;
         padding-left: 30px;
@@ -157,41 +157,42 @@ and (max-device-width : 1024px)
         width: 70%;
         height: 100%;
     }
-    
+
     #name {
         font-size: 40px;
         padding-top: 20px;
         margin: 0px;
     }
-    
+
     #photo {
         position: relative;
         top: 20px;
         width: 150px;
         height: 150px;
     }
-    
+
     .links p {
         font-size: 18px;
         margin: 0px;
     }
-    
+
     .links {
         padding-top: 3px;
     }
-    
+
     .navigation {
         display: inline-block;
+        text-align: center;
         border-top: 2px solid silver;
         width: 725px;
         padding-top: 10px;
     }
-    
+
     .body {
         display: inline-block;
         text-align: left;
         padding-top: 20px;
-        width: 725px;   
+        width: 725px;
         height: 1000px;
         font-size: 20px;
     }

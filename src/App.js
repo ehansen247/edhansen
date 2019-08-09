@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Homepage from './components/homepage';
 import Projects from './components/projects';
@@ -11,12 +11,12 @@ class App extends React.Component {
 
     render () {
         return (
-            
+
             <div className="app">
                 <BrowserRouter basename={process.env.PUBLIC_URL}>
                     { this.renderMenu() }
                     <br />
-                    { this.renderNavigation() }
+                    { this.renderNavigation() } <br />
                     { this.renderRoutes() }
                 </BrowserRouter>
             </div>
@@ -33,8 +33,8 @@ class App extends React.Component {
                     <p id="name">Eric Hansen</p>
                     <div className="links">
                         <p>&nbsp;<Icon type="mail" /> ehansen247@gmail.com</p>
-                        <p>&nbsp;<Icon type="github" /> github.com/ehansen247</p> 
-                        <p>&nbsp;<Icon type="linkedin" /> linkedin.com/in/eric-hansen-2022</p> 
+                        <p>&nbsp;<Icon type="github" /> github.com/ehansen247</p>
+                        <p>&nbsp;<Icon type="linkedin" /> linkedin.com/in/eric-hansen-2022</p>
                     </div>
                 </div>
             </div>
@@ -45,20 +45,20 @@ class App extends React.Component {
         return (
             <div className="navigation">
                 <NavigationWithRouter  />
-            </div> 
+            </div>
         );
     }
 
     renderRoutes() {
-        
+
         return (
             <div className="body">
-                    
+
                 <Switch>
                     <Route exact path="/" component={ Homepage } />
                     <Route exact path="/projects" component={ Projects } />
                 </Switch>
-            </div> 
+            </div>
         );
     }
 }
