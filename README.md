@@ -4,7 +4,7 @@ A personal/professional website that features programming projects and general i
 
 ### Access via Heroku Web App
 
-Link: [https://ehansen247.github.io/edhansen]()
+Link: [https://edhansen.herokuapp.com/](https://edhansen.herokuapp.com/)
 
 ### Running on Local Host
 
