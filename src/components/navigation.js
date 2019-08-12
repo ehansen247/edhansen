@@ -36,7 +36,7 @@ class Navigation extends Component {
                     <a href="https://github.com/ehansen247"><Icon type="github" /> GitHub</a>
                 </Menu.Item>
                 <Menu.Item>
-                    <a href="https://www.linkedin.com/in/eric-hansen-2022//"><Icon type="linkedin" /> LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/eric-hansen-2022/"><Icon type="linkedin" /> LinkedIn</a>
                 </Menu.Item>
                 <Menu.Item>
                     <a href="https://www.facebook.com/ehansen247"><Icon type="facebook" /> Facebook</a>
