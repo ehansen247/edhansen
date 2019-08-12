@@ -1,9 +1,0 @@
-a:hover {
-    text-decoration: none;
-}
-a:clicked {
-    color: lightblue;
-}
-a {
-    color: lightblue;
-}
