@@ -4,13 +4,14 @@ A personal/professional website that features programming projects and general i
 
 ### Access via GitHub Pages
 
-Link: https://ehansen247.github.io/
+Link: https://ehansen247.github.io/edhansen
 
 ### Running on Local Host
 
 ```
-git clone https://github.com/ehansen247/edhansen.git  
+git clone https://github.com/ehansen247/edhansen.git
 cd edhansen
+npm install
 npm start
 ```
 
