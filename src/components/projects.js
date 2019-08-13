@@ -13,7 +13,7 @@ class Projects extends Component {
                         the ability for users to create an account and store their own personal quotes.
                     </p>
                 </Card> <br />
-                <Card hoverable="true" className="card" title="ReactGames" extra={<a href="https://ehansen247.github.io/ReactGames/">Site</a>}>
+                <Card hoverable="true" className="card" title="ReactGames" extra={<a href="https://github.com/ehansen247/ReactGames">GitHub</a>}>
                     <p className="cardText">Recreated the games of ConnectFour and TicTacToe to learn React.
                         Developed a "computer AI player" that uses Depth First Search to
                         determine the best move at any point in a TicTacToe game.
