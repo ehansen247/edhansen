@@ -2,9 +2,9 @@
 
 A personal/professional website that features programming projects and general information. Created using React.
 
-### Access via Heroku Web App
+### Access via GitHub Pages
 
-Link: [https://ehansen247.github.io/edhansen]()
+Link: [https://ehansen247.github.io/edhansen](https://ehansen247.github.io/edhansen)
 
 ### Running on Local Host
 
