@@ -10,7 +10,6 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://ehansen247.github.io/edhansen",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
