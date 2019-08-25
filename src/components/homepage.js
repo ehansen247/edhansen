@@ -5,9 +5,8 @@ class Homepage extends Component {
     render () {
         return (
             <div>
-                <p> Hi, I'm Eric, a rising sophomore at Harvard College studying Applied Mathematics
-                    and Computer Science. I'm currently studying abroad at the London School
-                    of Economics. If you'd like to see a portfolio of my programming projects,
+                <p> Hi, I'm Eric, a sophomore at Harvard College studying Applied Mathematics
+                    and Computer Science. If you'd like to see a portfolio of my programming projects,
                     feel free to check out my <a href="https://github.com/ehansen247">GitHub</a>, or
                     the descriptions and links under the Projects tab on this site.
                     Outside of programming, my interests include being a part of
