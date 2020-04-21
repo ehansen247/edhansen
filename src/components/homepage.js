@@ -13,10 +13,7 @@ class Homepage extends Component {
                     the <a href="https://www.gocrimson.com/sports/sailing/index">Harvard Varsity Sailing Team</a> and
                     the <a href="http://business.thecrimson.com/">Crimson Business Board</a>.
                     I'll be studying Computer Science along with Mathematics, Statistics,
-                    and Economics over the next three years. I will be  working as a
-                    Software Engineer this coming summer, but am pursuing opportunities
-                    in finance, particularly strategic advisory, as I look towards a career
-                    in business.
+                    and Economics over the next three years.
                 </p>
                 <p>
                     Feel free to contact me at ehansen247@gmail.com or through social media if
