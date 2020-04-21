@@ -26,7 +26,7 @@ class Projects extends Component {
                     </p>
                 </Card> <br />
                 <Card hoverable="true" className="card" title="Chess GUI" extra={<a href="https://github.com/ehansen247/JavaChessGame/">GitHub</a>}>
-                    <p className="cardText">A fully functional, two-player, graphics-based, interactive chess game/program
+                    <p className="cardText">A two-player, graphics-based, interactive chess game/program
                         built as a Java Applet. Features all standard Chess moves including pawn promotion,
                         en-passant, castling, etc., as well as customizable board colors, and a Game To PGN
                         converter.
